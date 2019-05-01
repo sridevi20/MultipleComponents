@@ -10,7 +10,7 @@
 
 <script>
 
-import CountriesDetail from './components/CountriesDetail.vue';
+import CountryDetail from './components/CountryDetail.vue';
 import CountriesList from './components/CountriesList.vue';
 import { eventBus } from './main.js';
 
@@ -34,7 +34,7 @@ export default {
   },
   components: {
     "countries-list": CountriesList,
-    "country-detail": CountriesDetail
+    "country-detail": CountryDetail
   }
 
 
